@@ -8,6 +8,8 @@ This code is for our paper:
 
 The code is tested under tensorflow-gpu=1.8 and python=3.6
 
+To run the code, download [Inceptionv3](http://download.tensorflow.org/models/inception_v3_2016_08_28.tar.gz) classifier from Tensorflow website and put it in the directory `tools/data`.
+
 ## Run attacks
 
 To run the region attack
