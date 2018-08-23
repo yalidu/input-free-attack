@@ -1,4 +1,4 @@
-# Region-Attack
+# Input Free Attack - Region-Attack algorithm
 
 This code is for our paper:
 
@@ -9,6 +9,12 @@ This code is for our paper:
 The code is tested under tensorflow-gpu=1.8 and python=3.6
 
 To run the code, download [InceptionV3](http://download.tensorflow.org/models/inception_v3_2016_08_28.tar.gz) classifier from Tensorflow website and put it in the directory `tools/data`.
+
+### Note
+
+The infrastructure of the implementation for Natural Evolution Strategies is adapted from
+[Black-box Adversarial Attacks with Limited Queries and Information](https://github.com/labsix/limited-blackbox-attacks).
+Thank these contributors.
 
 ## Run attacks
 
