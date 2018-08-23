@@ -14,7 +14,7 @@ To run the code, download [InceptionV3](http://download.tensorflow.org/models/in
 
 The infrastructure of the implementation for Natural Evolution Strategies is adapted from
 [Black-box Adversarial Attacks with Limited Queries and Information](https://github.com/labsix/limited-blackbox-attacks).
-Thank these contributors.
+Thank those contributors.
 
 ## Run attacks
 
