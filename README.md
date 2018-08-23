@@ -30,7 +30,7 @@ python test_blackbox_attack.py  --momentum 0.7 --max-queries 1000000 --out-dir f
 
 Please only select the food model. An example is as follows:
 
-Adversarial example| Category
+Adversarial example| Top-1 Category
 -----------------------|-----------------------
 ![](./examples/adv-img-Food-detection-clarifai-apple0.900.png "apple") | apple
 
