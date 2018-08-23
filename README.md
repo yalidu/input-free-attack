@@ -8,7 +8,7 @@ This code is for our paper:
 
 The code is tested under tensorflow-gpu=1.8 and python=3.6
 
-To run the code, download [Inceptionv3](http://download.tensorflow.org/models/inception_v3_2016_08_28.tar.gz) classifier from Tensorflow website and put it in the directory `tools/data`.
+To run the code, download [InceptionV3](http://download.tensorflow.org/models/inception_v3_2016_08_28.tar.gz) classifier from Tensorflow website and put it in the directory `tools/data`.
 
 ## Run attacks
 
@@ -29,3 +29,11 @@ An example:
 Target is Apple.
 
 ![apple](./examples/adv-img-Food-detection-clarifai-apple0.900.png "apple")
+
+### Attack InceptionV3
+
+Adversarial noise| Adversarial example| A ground-truth example| Category
+-----------------------|-----------------------|-----------------------|-----------------------
+![](./examples/938_diff_id1993.0_seq937_prev111_adv937_True_dist31.206903987172115.png)|![](./examples/938_adversarial_id1993.0_seq937_prev111_adv937_True_dist31.206903987172115.png)|![](./examples/938.00043347.jpg)| broccoll
+![](./examples/683_diff_id1993.0_seq682_prev111_adv682_True_dist37.59660364396521.png)|![](./examples/683_adversarial_id1993.0_seq682_prev111_adv682_True_dist37.59660364396521.png)|![](./examples/683.00034053.jpg)| obelisk
+
