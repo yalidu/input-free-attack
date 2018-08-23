@@ -22,13 +22,11 @@ python test_blackbox_attack.py  --momentum 0.7 --max-queries 1000000 --out-dir f
 
 ### Attack [clarifai](https://clarifai.com/demo)
 
-Please only select the food model. 
+Please only select the food model. An example is as follows:
 
-An example:
-
-Target is Apple.
-
-![apple](./examples/adv-img-Food-detection-clarifai-apple0.900.png "apple")
+Adversarial example| Category
+-----------------------|-----------------------
+![](./examples/adv-img-Food-detection-clarifai-apple0.900.png "apple") | apple
 
 ### Attack InceptionV3
 
