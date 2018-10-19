@@ -2,7 +2,7 @@
 
 This code is for our paper:
 
-> [Towards Query Efficient Black-box Attacks: An Input-free Perspective](https://arxiv.org/abs/1809.02918)
+> [Towards Query Efficient Black-box Attacks: An Input-free Perspective](https://arxiv.org/abs/1809.02918), AISec '18
 
 ## Setup
 
