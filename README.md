@@ -1,4 +1,4 @@
-# Input Free Attack: Region-Attack algorithm
+# Input Free Attack Algorithm
 
 This code is for our paper:
 
